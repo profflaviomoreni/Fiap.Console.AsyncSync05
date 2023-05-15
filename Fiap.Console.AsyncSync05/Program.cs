@@ -6,7 +6,7 @@ class MyClass
     public static async Task Main(String[] args)
     {
 
-        print1();
+        await print1();
         print2();
         print3();
 
