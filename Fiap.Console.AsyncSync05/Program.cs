@@ -13,7 +13,7 @@ class MyClass
         Console.ReadKey();
     }
 
-    public static void print1()
+    public static async Task print1()
     {
         Console.WriteLine("1.1");
 
@@ -22,7 +22,7 @@ class MyClass
         Console.WriteLine("1.3");
     }
 
-    public static void  print2()
+    public static async Task print2()
     {
         Console.WriteLine("2.1");
 
@@ -31,7 +31,7 @@ class MyClass
         Console.WriteLine("2.3");
     }
 
-    public static void print3()
+    public static async Task print3()
     {
         Console.WriteLine("3.1");
 
