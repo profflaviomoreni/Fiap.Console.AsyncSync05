@@ -7,8 +7,8 @@ class MyClass
     {
 
         await print1();
-        print2();
-        print3();
+        await print2();
+        await print3();
 
         Console.ReadKey();
     }
@@ -53,7 +53,7 @@ class MyClass
     static int GenerateRandom()
     {
         Random random = new Random();
-        return random.Next(300, 2700);
+        return random.Next(300, 1000);
     }
 
 }
